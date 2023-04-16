@@ -13,7 +13,12 @@ const getContacts = asyncHandler(async (req, res) => {
 //@route GET /api/contacts/:id
 //@access public
 const getContact = asyncHandler(async (req, res) => {
-  res.status(200).json({ message: `Get Contact for ${req.params.id}` });
+  const contact = await Contact.findById(req.params.id);
+  if (!contact) {
+    res.status(404);
+    throw new Error("Contact not found!");
+  }
+  res.status(200).json(contact);
 });
 
 //@desc Create new contact
