@@ -2,7 +2,7 @@
 
 This is a backend project which lets users to login or register and store their contacts' name, email and phone number.
 
-## Endpoints
+## ENDPOINTS
 
 This contains two sets of endpoints :-
 
@@ -30,3 +30,6 @@ This contains two sets of endpoints :-
 - Node
 - JWT for Token Authentication And Validation
 - Bcrypt for Password Hashing
+
+## SERVER CONTROL FLOW
+![Server Control Flow Diagram](https://github.com/officiallysidsingh/Contact-Manager-App/blob/main/scf.png?raw=true)
