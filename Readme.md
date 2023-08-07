@@ -32,4 +32,5 @@ This contains two sets of endpoints :-
 - Bcrypt for Password Hashing
 
 ## SERVER CONTROL FLOW
-![Server Control Flow Diagram](https://github.com/officiallysidsingh/Contact-Manager-App/blob/main/scf.png?raw=true)
+
+![Server-Control-Flow](https://github.com/officiallysidsingh/Contact-Manager-App/assets/55332990/60195bd4-b87f-43a7-b6ef-bcce747a9e04)
